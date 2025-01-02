@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 80px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.form-container input:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(37, 117, 252, 0.6);
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2575fc;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 10px;
+}
+
+.form-container button:hover {
+    background-color: #6a11cb;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.switch-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.switch-link a {
+    color: #2575fc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.switch-link a:hover {
+    color: #6a11cb;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 20px;
+        margin: 50px auto;
+    }
+
+    .form-container h2 {
+        font-size: 24px;
+    }
+
+    .form-container button {
+        font-size: 16px;
+    }
+}
+
+
+
+/* home page  */
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f4;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+}
+
+.btn-info:hover {
+    background-color: #138496;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
